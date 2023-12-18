@@ -1,0 +1,332 @@
+
+@font-face {
+    font-family: "Romanesco";
+    src: url(../FONTS/Romanesco-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../FONTS/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-empresa {
+    background-color: #A3A656;
+    height: 70px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 16px;
+}
+
+.left-options {
+    display: flex;
+    align-items: center;
+}
+
+.left-options ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-options li {
+    padding-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+#menu-empresa a {
+    color: #000;
+    text-decoration: none;
+}
+
+#menu-empresa  div ul li a:hover{
+    color: #FFFF00;
+}
+
+#mmenu-empresa  div ul li:hover{
+    color: #FFFF00;
+}
+
+.right-options {
+    display: flex;
+    align-items: center;
+}
+
+.right-options ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.right-options li {
+    padding-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+#spa {
+    height: 700px;
+    background-image: url(../images/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-spa{
+    width: 550px;
+    padding-left: 220px;
+    padding-top: 160px;
+}
+
+.text-spa h1{
+    margin: 0px;
+    font-family: Romanesco;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.text-spa p{
+    margin: 0px;
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+#menu-buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#menu-buscador div input{
+    height: 50px;
+    padding: 1px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+#reserva-tu-cita {
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#codigo-promocional {
+    width: 150px;
+    margin-left: 10px;
+}
+
+#codigo-promocional::placeholder {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color:  #9E9A9A;
+}
+
+#servicios {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+}
+
+#servicios h1 {
+    background: #A3A656;
+    margin: 0px;
+    padding: 20px 0px;
+    border-radius: 15px 15px 0px 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#servicios article p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.precio-reservar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio {
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.precio-reservar button {
+    float: right;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    padding: 10px 30px;
+}
+
+.precio-reservar button:hover {
+    color: #384001;
+}
+
+/* Planes */
+
+#planes {
+    height: 770px;
+    background:#F2F6F6;
+}
+
+#planes h1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 75px 0px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#contenedor-planes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px;
+}
+
+#contenedor-planes article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor-planes article h2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#contenedor-planes article button {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 25px 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    padding: 20px 95px;
+}
+
+#contenedor-planes article button:hover {
+    color: #384001;
+}
+
+.lista-beneficios {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-beneficios ul li {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.imagen-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #384001;
+    border-radius: 50%;
+    background: #FFFFFF;
+    width: 255px;
+    height: 255px;
+}
+
+.imagen-plan img {
+    width: 50%;
+    height: 50%;
+}
+
+
+#pie-de-pagina{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    background: #384001;
+}
+
+#pie-de-pagina div {
+    display: inline-flex;
+    height: 97px;
+}
+
+#pie-de-pagina div ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px;
+    height: 95px;
+    list-style-type: none;
+}
+
+#pie-de-pagina div ul li a{
+    text-decoration: none;
+    color: #A3A656;
+}
+
+#pie-de-pagina div ul li a:hover{
+    color: #FFFF00;
+}
+
+#informacion-negocio ul{
+    padding-left: 70px;
+}
+
+#informacion-negocio ul li{
+    padding: 0px 50px;
+}
+
+#redes-sociales{
+    float: right;
+    padding-right: 30px;
+}
+
+#redes-sociales ul{
+    padding: 0px;
+}
+
+#redes-sociales ul li {
+    padding: 20px;
+    padding-right: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+}
